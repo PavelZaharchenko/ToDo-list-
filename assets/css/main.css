@@ -1,0 +1,45 @@
+.header-title,
+.form-block {
+	text-align: center;
+}
+.todo-list {
+	display: none;
+}
+
+
+h2 {
+    font-family:arial;
+}
+
+form {
+    display: inline-block;
+}
+
+.list {
+	font-family:"Trebuchet MS";
+    font-size:20px;
+	color:#000000;
+    cursor:pointer;
+}
+.wrap,
+.list {
+	text-align: center;
+}
+
+.item.done {
+	color: #cc0000;
+	cursor: default;
+	text-decoration: line-through;
+}
+
+.delete-btn{
+	margin-left: 20px;
+}
+.ajax-bth,
+.websock-bth {
+	text-decoration: none;
+	margin-left: 20px;
+}
+/* .item.done.ajax-bth {
+	text-decoration: none;
+} */

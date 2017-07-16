@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo list</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+	        <div class="col-md-4"></div>
+		    <div class="col-md-4 wrap">
+	            <h2>Todo aplication</h2>
+			    <form name="checkListForm">
+				    <input class="entry-field" type="text" name="checkListItem" placeholder="Add Item..."/>
+			    </form>
+		    	<button type="button" id="add" class="btn btn-info">Add</button>
+	            <button type="button" id="clear" title="Clear checked items" class="btn btn-default">clear</button>
+			    <br/><br/>
+			    <div class="list">
+			    <!-- 	<div class="item done">Pepe</div>
+			    	<div class="item">Lolo</div> -->
+			    </div>
+	        </div>
+	        <div class="col-md-4"></div>
+		</div>
+<!-- 		//// -->
+		<div class="col-md-4 results"></div>
+<!-- 		//// -->
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script> -->
+    <script type="text/javascript" src='assets/js/main.js'></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <!-- <script type="text/javascript" src='assets/js/server.js'></script> -->
+
+</body>
+</html>
